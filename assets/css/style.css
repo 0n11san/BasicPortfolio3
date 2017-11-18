@@ -1,0 +1,125 @@
+#container {
+  background: lightgrey; width: 960px; display: block;
+    margin: auto;
+}
+
+#parent1 {
+  background: white; color: ; padding: 50px; padding-bottom: 0px;
+}
+
+#parent2 {
+  background: ; color: white; width: 650px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#parent3 {
+  background: white; color: ; width: 270px; float: right; border-style: solid; position: relative;  text-align: center; padding: 15px;
+}
+
+#parent4 {
+  width: 960px;
+  padding: 10px;
+  border-top: 8px solid #4aaaa5;
+  background: grey;
+  color: white;
+  position: sticky;
+  bottom: 0px;
+  text-align: center;
+  float: right;
+}
+
+#child1 {
+  background: #4aaaa5;
+  color: white;
+  padding: 20px;
+  padding-bottom: 15px;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+  font-size: 20px;
+  float: left;
+
+}
+
+#child2 {
+  background: ;
+  padding: 20px;
+  position: relative;
+  bottom: 50px;
+  left: px;
+  float: right;
+}
+
+#child3 {
+  background: white; color: #4aaaa5; text-align: left; width: 656px; float: left; font-size: 20px;
+  border-bottom: 2px solid grey;
+}
+
+#child4 {
+  background: white; color: ; width: 650px; float: left; padding: 3px;
+}
+
+#child5 {
+  height: 200px; width: 200px; float: left; margin: 20px;
+}
+
+#connect{
+  font-size: 18px; color: #4aaaa5;
+  border-bottom: 2px solid grey;
+}
+
+.test { position: relative;
+  text-align: center;
+  color: white;
+  height: 250px;
+  width: 250px;
+}
+.test2 {position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  background-color: #4aaaa5 ;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  height: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.centerblocks
+/*centers block elements*/
+{
+display: block;
+  margin: auto;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.bordersolid {
+  border-style: solid;
+}
+
+.iconsize
+/*icon size for profile links*/
+{
+  width: 50px;
+  height: 50px;
+}
+
+.piconsize
+/*portfolio icon size and float left*/
+{
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding: 20px;
+}
+
+.dataentry {
+
+}
